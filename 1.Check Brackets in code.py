@@ -12,6 +12,7 @@ for index,bracket in enumerate(S):
             stack.pop()
     else:
         print(index+1)
+        break
         
 if len(stack)==0:
     print("Success")
